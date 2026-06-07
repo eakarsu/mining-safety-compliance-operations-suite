@@ -1,0 +1,145 @@
+{
+  "slug": "mining-safety-compliance-operations-suite",
+  "title": "Mining Safety Compliance Operations Suite",
+  "buyer": "Mining operators, contractors, safety teams",
+  "description": "Mine safety, inspections, equipment, environmental compliance, incident management, training, and production risk.",
+  "modules": [
+    {
+      "id": "sites",
+      "table": "sites",
+      "label": "Mine Sites",
+      "description": "Mine Sites workspace for Mining Safety Compliance Operations Suite.",
+      "subfeatures": [
+        "Pit/shaft",
+        "Permit",
+        "Risk"
+      ],
+      "prefix": "MS",
+      "seedValues": [
+        "Pit/shaft",
+        "Permit",
+        "Risk"
+      ]
+    },
+    {
+      "id": "inspections",
+      "table": "inspections",
+      "label": "Safety Inspections",
+      "description": "Safety Inspections workspace for Mining Safety Compliance Operations Suite.",
+      "subfeatures": [
+        "MSHA checks",
+        "Hazards",
+        "Corrective actions"
+      ],
+      "prefix": "SI",
+      "seedValues": [
+        "MSHA checks",
+        "Hazards",
+        "Corrective actions"
+      ]
+    },
+    {
+      "id": "equipment",
+      "table": "equipment",
+      "label": "Equipment",
+      "description": "Equipment workspace for Mining Safety Compliance Operations Suite.",
+      "subfeatures": [
+        "Haul trucks",
+        "Conveyors",
+        "Maintenance"
+      ],
+      "prefix": "E",
+      "seedValues": [
+        "Haul trucks",
+        "Conveyors",
+        "Maintenance"
+      ]
+    },
+    {
+      "id": "incidents",
+      "table": "incidents",
+      "label": "Incidents",
+      "description": "Incidents workspace for Mining Safety Compliance Operations Suite.",
+      "subfeatures": [
+        "Injury",
+        "Near miss",
+        "Investigation"
+      ],
+      "prefix": "I",
+      "seedValues": [
+        "Injury",
+        "Near miss",
+        "Investigation"
+      ]
+    },
+    {
+      "id": "training",
+      "table": "training",
+      "label": "Training",
+      "description": "Training workspace for Mining Safety Compliance Operations Suite.",
+      "subfeatures": [
+        "Certifications",
+        "Refreshers",
+        "Contractors"
+      ],
+      "prefix": "T",
+      "seedValues": [
+        "Certifications",
+        "Refreshers",
+        "Contractors"
+      ]
+    },
+    {
+      "id": "environmental",
+      "table": "environmental",
+      "label": "Environmental",
+      "description": "Environmental workspace for Mining Safety Compliance Operations Suite.",
+      "subfeatures": [
+        "Dust",
+        "Water",
+        "Reclamation"
+      ],
+      "prefix": "E",
+      "seedValues": [
+        "Dust",
+        "Water",
+        "Reclamation"
+      ]
+    },
+    {
+      "id": "production-risk",
+      "table": "productionRisk",
+      "label": "Production Risk",
+      "description": "Production Risk workspace for Mining Safety Compliance Operations Suite.",
+      "subfeatures": [
+        "Downtime",
+        "Bottlenecks",
+        "Shift risk"
+      ],
+      "prefix": "PR",
+      "seedValues": [
+        "Downtime",
+        "Bottlenecks",
+        "Shift risk"
+      ]
+    },
+    {
+      "id": "compliance",
+      "table": "compliance",
+      "label": "Compliance",
+      "description": "Compliance workspace for Mining Safety Compliance Operations Suite.",
+      "subfeatures": [
+        "Citations",
+        "Deadlines",
+        "Audit trail"
+      ],
+      "prefix": "C",
+      "seedValues": [
+        "Citations",
+        "Deadlines",
+        "Audit trail"
+      ]
+    }
+  ],
+  "port": 5618
+}

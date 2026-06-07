@@ -1,0 +1,14 @@
+{
+  "name": "mining-safety-compliance-operations-suite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mine safety, inspections, equipment, environmental compliance, incident management, training, and production risk.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node scripts/smoke-test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
